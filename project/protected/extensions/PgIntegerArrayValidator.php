@@ -1,14 +1,17 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: serg
- * Date: 07.11.16
- * Time: 14:29
- */
 
+/**
+ * @class PgIntegerArrayValidato
+ * @version 1.0.0 от 07-11-201
+ * @update 07-11-201 sergl
+ * Валидатор для проверки атрибута на соответсвие массиву с целочисленными данными
+ */
 namespace app\extensions;
 class PgIntegerArrayValidator extends CValidator
 {
+    /*
+     * Валидация
+     */
     protected function validateAttribute($object,$attribute){
         $result = true;
         $checkData =$object->$attribute;

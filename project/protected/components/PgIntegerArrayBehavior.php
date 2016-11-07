@@ -1,10 +1,13 @@
 <?php
 
 /**
- * Class PgIntegerArrayBehavior
+ * @name PgIntegerArrayBehavior
+ * @version 1.0.0 от 07-11-2016
+ * @update 07-11-201 sergl
  *  Поведение обработки массивов целочисленных значений вида int[]
  *  Подключение какждого элемента отдельно
  *  Изменяет типы данных в модели
+ *
  */
 
 namespace app\components;
